@@ -39,8 +39,8 @@ object Build : BuildType({
         root(DslContext.settingsRoot)
 
         branchFilter = """
-            +:refs/heads/*
             +:<default>
+            +:feature/*
         """.trimIndent()
     }
 
